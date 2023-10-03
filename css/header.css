@@ -1,0 +1,21 @@
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-left: -10rem;
+}
+
+#navbarNav {
+    margin-right: -10rem;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link #home:hover {
+    background-color: blue;
+}

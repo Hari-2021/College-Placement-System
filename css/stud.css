@@ -1,0 +1,91 @@
+/* student Details */
+
+
+/* .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+} */
+
+.container {
+    max-width: 900px;
+    height: 650px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* #CR {
+    display: flex;
+    position: relative;
+} */
+
+h4 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* button[type="submit"], */
+
+button {
+    background-color: #7be284;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #06740f;
+    outline: none;
+}
+
+#image-preview {
+    width: 200px;
+    height: 200px;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    margin-left: 100px;
+}
+
+@media (max-width:930px) {
+    h4 {
+        margin-bottom: 20px;
+    }
+    .container {
+        box-shadow: none;
+    }
+    #image-preview {
+        width: 200px;
+        height: 200px;
+        margin: 25px;
+    }
+}

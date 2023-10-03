@@ -1,0 +1,70 @@
+/* Login */
+
+.container-fluid {
+    margin: 90px 100px 80px 120px;
+    display: grid;
+    width: 80rem;
+}
+
+.text-white {
+    height: 545px;
+    width: 200px;
+}
+
+.bg-primary-custom {
+    height: 600px;
+    width: 200px;
+    background-image: url('/images/bird.png');
+}
+
+h1 {
+    font-family: 'Arial';
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-bottom-color: #0c25c8;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    font-family: "Bricolage Grotesque", sans-serif;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+
+/* Login Ends */
+
+@media(max-width: 1000px) {
+    .bg-primary-custom {
+        display: none;
+    }
+    body {
+        align-items: center;
+        text-align: center;
+    }
+    .text-white {
+        margin-left: -100px;
+        height: 600px;
+        width: auto;
+    }
+}
